@@ -35,20 +35,21 @@ module.exports = {
 
   homepage: function (req, res) {
     ResponseModels.set(res, function(){
-      res.render(curLayout + '/homepage', {layout: curLayout})
+      res.render('homepage', {layout: curLayout})
     })
   },
 
   contact: function (req, res) {
 
     var r = req.body;
+    var params = req.allParams();
     var data = {
       name: r.name,
       message: r.message,
       subject: r.subject,
       email: r.email
     };
-    Mailer.contactMe(data);
+    Mailer.contactMe(params);
     res.send("Thank you for your message. I will get back to you as soon as possible.");
   },
 
