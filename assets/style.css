@@ -57,6 +57,11 @@ Author:		elemis
   display: none
 }
 
+.intro {
+  border-bottom: thin solid grey;
+  text-align: center;
+}
+
 figure {
   margin: 0;
   padding: 0;

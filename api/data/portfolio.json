@@ -3,11 +3,16 @@
     "category": "JavaScript",
     "filter": "javascript",
     "name": "Meeting Meter",
-    "image":"Meeting Meter.png",
-    "description": "Small javascript business web app which calculates a meeting cost in real time.",
-    "postName": "",
+    "image": "Meeting Meter.png",
     "post": true,
-    "_id": "2d40c2f7-8a76-4992-ab8f-10677e7ac1bc"
+    "github": "https://github.com/jarellano01/meeting-meter",
+    "demo": "https://jarellano01.github.io/meeting-meter/",
+    "description": "Small javascript business web app which calculates a meeting cost in real time.",
+    "longDesc": [
+      "Meeting Meter is a simple front end JavaScript Web App that was inspired from constant pointless meetings that often seemed to have no purpose. One day, I decided to create Meeting Meter just to test out my new JavaScript skills that I gain from the UCLA Bootcamp (early in the course), and this what came out of it.",
+      "Remember this is all front end JS only so neither the counter nor the table will not persist if the page is refreshed. The counter will also pause if you switch tabs or hide your browser on a phone.",
+      "None the less, I think my point was made when I first presented this app at the next meeting I forced to go to."
+    ]
   },
   {
     "category": "C#",
@@ -15,18 +20,41 @@
     "name": "Combinder",
     "image": "Combinder.png",
     "description": "PDF processing application which creates linked PDF Interfaces for Construction Close Out Documents",
-    "postName": "post3",
-    "post": false,
-    "_id": "33abdfc5-c87b-491f-9e3c-493e726dc76c"
+    "post": true,
+    "github": false,
+    "demo": false,
+    "longDesc": [
+      "C# Windows Forms application.",
+      "Combinder is an application which takes any number of construction close out documents and instantly creates a stylized linked pdf dashboad.",
+      "Originally construction close out documents used to be handed over in boxes of binders. This included all warranties, O&Ms, and other documents required by the specs and usually 3 copies for each document. For the most part all of these close out documents would go to some storage where no one ever really accessed them unless there was a warranty issue. Quite pointless and inefficient.",
+      "Finally the construction industry slowly began going paperless, by storing everything as PDFs. Unfortunately, owners did not respond too well to simple handing over a flashdrive with all the documents. Close out documents are usually used by the maintenance crew which meant that they probably would not have access to a computer.",
+      "With software such as Bluebeam rising in the industry, it became easier to create custom pdf linked dashboards manually and then placing them on ipads. The problem then became the amount of work that it took to link up thousands of documents into a simple dashboard. This could easily take weeks to set up depending on the project size.",
+      "This is where Combinder comes in. I developed Combinder, to not generate a stylized dashboard with forward links to each document but also to add back links on each document back to the dashboard. The final output will allow users to feel as if they are within an app of it's own when in reality they are simply in a linked pdf."
+    ]
   },
   {
-    "category": "NodeJs/Express",
-    "filter": "node-express",
-    "name": "Dev-Point",
-    "image": "dev-point.gif",
-    "description": "Web Application which allows developers to create their portfolio websites from a simple dashboard. Website will include an About, Portfolio, and Contact Page.",
-    "postName": "post3",
-    "post": false,
-    "_id": "33abdfc5-c87b-491f-9e3c-493e726dc76c"
+    "category": "Tutorial",
+    "filter": "tutorial",
+    "name": "SailsJs API w/ Passport and JWT Auth",
+    "image": "JA-Tutorial.png",
+    "description": "Tutorial on setting authentication using Passport Local and JWT Validation for front end applications pulling from an API.",
+    "post": true,
+    "github": "https://github.com/jarellano01/tutorial_Sails-API-Authentication/blob/master/README.md",
+    "longDesc": [
+      "This tutorial will show you how to set up passport authentication for registering and logging in your users. Once the users are registered/logged in through the API, a JWT will be returned so that the front end may stay logged in with out the need to continue logging in. The JWT may be stored in a cookie or session storage and will then be passed through an authorization header on each request.",
+      "For the full tutorial go to the github repo linked above."
+    ]
+  },
+  {
+    "category": "Tutorial",
+    "filter": "tutorial",
+    "name": "Intro To Firebase - Chatroom Tutorial",
+    "image": "JA-Tutorial.png",
+    "post": true,
+    "github": "https://github.com/jarellano01/tutorial-firebase-intro",
+    "description": "Intro to Firebase tutorial where I show the simplicity of firebase by building a chatroom web app.",
+    "longDesc": [
+      "For the full tutorial see the github repo in the link above."
+    ]
   }
 ]

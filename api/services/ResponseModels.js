@@ -35,3 +35,10 @@ module.exports.set = function (res, cb) {
     });
   });
 };
+
+module.exports.findProject = function(name,res, cb){
+  portfolio.findOne({name:name}).then(function(project){
+    res.locals.project = project;
+    cb();
+  })
+};

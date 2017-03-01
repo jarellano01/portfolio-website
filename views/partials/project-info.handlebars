@@ -1,0 +1,20 @@
+<div class="container inner tp0">
+  <div class="box">
+    <div class="row">
+      <h1 class="post-title text-center">{{this.project.name}}</h1>
+      <div class="col-sm-4"><img src="/style/project-images/{{this.project.image}}" class="img-responsive" alt=""></div>
+      <div class="col-sm-8">
+        <p>
+          {{#if project.github}}<a href="{{project.github}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub </a>{{/if}} {{#if project.demo}}| <a href="{{project.demo}}" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i> Live Demo</a>{{/if}}
+        <p class="intro">{{this.project.description}}</p>
+
+        </p>
+        {{#each project.longDesc}}
+          <p>{{this}}</p>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  <!-- /.box -->
+</div>
+<!-- /.container -->

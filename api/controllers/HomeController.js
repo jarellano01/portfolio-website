@@ -53,5 +53,14 @@ module.exports = {
     res.send("Thank you for your message. I will get back to you as soon as possible.");
   },
 
+  projectInfo: function(req, res){
+    var r = req.body;
+    var params = req.allParams();
+
+    ResponseModels.findProject(params.name, res, function(){
+      res.render('partials/project-info', {layout: false})
+    })
+  }
+
 };
 

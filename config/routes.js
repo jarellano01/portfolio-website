@@ -37,6 +37,7 @@ module.exports.routes = {
   // }
 
   'get /': 'HomeController.homepage',
+  'get /project-info': 'HomeController.projectInfo',
   'post /contact' : 'HomeController.contact',
   'get /admin' : "AdminController.admin",
   '/login' : {
