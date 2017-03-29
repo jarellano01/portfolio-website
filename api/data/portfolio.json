@@ -33,6 +33,19 @@
     ]
   },
   {
+    "category": "Jekyll",
+    "filter": "Jekyll",
+    "name": "JA-Tutorials",
+    "image": "JA-Tutorial.png",
+    "post": true,
+    "github": "https://github.com/jarellano01/ja-tutorials",
+    "demo": "http://www.ja-tutorials.com/",
+    "description": "A Jekyll based tutorials/blog website that I built to add some tutorials that I felt would have helped me out when I first began programming. ",
+    "longDesc": [
+      "To see my current tutorials feel free to check out the demo link above. The template that I created, is built on Jekyll and can be downloaded from the github repo in the link above. The readme in the github repo has it's own tutorial and guidelines for using my template. I used bootstrap for the front end so feel free to modify the html to style as you wish."
+    ]
+  },
+  {
     "category": "Tutorial",
     "filter": "tutorial",
     "name": "SailsJs API w/ Passport and JWT Auth",
